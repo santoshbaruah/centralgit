@@ -1,0 +1,27 @@
+composer create-project drupal/recommended-project:9.0.0 sunpowernew
+
+composer create-project drupal-composer/drupal-project:9.x-dev sunpowertest
+
+composer global require drush/drush:10.*
+
+composer create-project drupal/recommended-project sunpowertest
+
+composer create-project drupal/recommended-project sunpowertest
+
+composer create-project drupal/recommended-project:9.1.7 Sunpower
+
+
+composer require drupal/devel
+
+
+drush watchdog-show --tail --full.
+
+drush dl module_name
+
+To install a module using Drush, execute the command below:
+
+drush en module_name
+
+Clear the cache using a command
+
+drush cr
