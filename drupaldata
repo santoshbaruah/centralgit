@@ -1,0 +1,30 @@
+https://medium.com/d6-digital/installing-drush-on-windows-10-for-drupal-8-22f7f7c38f2
+
+
+Or, using Composer:
+
+$ composer require drupal/pathauto
+
+
+composer require drupal/features
+
+composer require drupal/phpmailer_smtp
+
+
+drush migrate-upgrade --legacy-db-url=mysql://user:password@server/db --legacy-db-prefix=drupal_ --legacy-root=http://example.com --configure-only 
+
+
+drush migrate-upgrade --legacy-db-url=mysql://ussunpowerclone:user:root:@localhost/db --legacy-db-prefix=drupal_ --legacy-root=http://localhost/sunpowerproject/web/--configure-only 
+
+
+drush migrate-upgrade --legacy-db-url=mysql://SUNPOWERUS:user:root:@localhost/db --legacy-db-prefix=drupal_ --configure-only 
+
+
+drush migrate-upgrade --legacy-db-url=mysql://root:@localhost/SUNPOWERUS --legacy-db-prefix=drupal_ --configure-only 
+
+
+Clearing the cache
+drush cache-rebuild
+
+
+
